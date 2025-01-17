@@ -1,10 +1,9 @@
+import { Signup } from "@/app/Component/Signup";
 
 
 export default function(){
     return <div>
-        <input type="text" placeholder="username" />
-        <input type="text" placeholder="password" />
-        <button>Signup</button>
+       <Signup></Signup>
 
     </div>
 }
